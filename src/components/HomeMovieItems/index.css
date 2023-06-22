@@ -1,0 +1,25 @@
+.each-image {
+  height: 170px;
+  width: 300px;
+  left: 166px;
+  top: 708px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin: 10px;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+
+  list-style-type: none;
+}
+@media screen and (max-width: 576px) {
+  .each-image {
+    height: 74px;
+    width: 100px;
+    margin: 10px;
+    top: 439px;
+    margin-left: 5px;
+    border-radius: 8px;
+  }
+}

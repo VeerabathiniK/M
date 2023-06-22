@@ -1,0 +1,10 @@
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.app-popular-container {
+  background-color: #000000;
+}

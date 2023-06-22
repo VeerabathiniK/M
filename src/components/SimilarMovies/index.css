@@ -1,0 +1,18 @@
+.similar-image {
+  height: 100px;
+  width: 160px;
+  left: 165px;
+  top: 758px;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: #000000;
+}
+@media screen and (max-width: 767px) {
+  .similar-image {
+    height: 70px;
+    width: 100px;
+    left: 165px;
+    top: 758px;
+    margin: 15px;
+  }
+}

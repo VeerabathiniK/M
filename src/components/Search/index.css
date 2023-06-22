@@ -1,0 +1,34 @@
+.search-list-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000000;
+  margin-top: 50px;
+}
+.search-image {
+  width: 170px;
+  height: 140px;
+  margin: 15px;
+}
+.search-failure-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.app-search-container {
+  background-color: #000000;
+  height: 100vh;
+}
+.search-notFound {
+  width: 200px;
+  height: 200px;
+}
+.paragraph {
+  color: #ffffff;
+
+  font-size: 13px;
+  font-family: roboto;
+}

@@ -1,0 +1,175 @@
+@media screen and (min-width: 768px) {
+  .main {
+    background-color: #000000;
+    height: 100vh;
+  }
+
+  .Account-container {
+    background-color: #ffffff;
+
+    padding: 30px;
+    width: 100%;
+  }
+  .heading-account {
+    font-size: 20px;
+    color: #000000;
+    font-family: roboto;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .line {
+    height: 2px;
+    width: 1110px;
+    left: 165px;
+    top: 238px;
+    border-radius: 10px;
+    background: #cbd5e1;
+    margin-top: 20px;
+  }
+  .membership-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .member {
+    height: 31px;
+
+    left: 165px;
+    margin-top: 20px;
+    font-family: roboto;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #cbd5e1;
+    margin-left: 30px;
+    font-weight: 600;
+  }
+  .user-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .user {
+    margin-left: 20px;
+    color: #1e293b;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .password {
+    margin-left: 20px;
+    color: #1e293b;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .plan-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .button {
+    width: 100px;
+    background-color: transparent;
+    border: #1e293b, 1px, solid;
+    font-family: roboto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .logout-button {
+    height: 40px;
+    width: 89px;
+    left: 675px;
+    top: 508px;
+    border-radius: 4px;
+    padding: 8px 20px 8px 20px;
+    background: #e50914;
+    border: none;
+    margin-left: 500px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main {
+    background-color: #000000;
+    height: 100vh;
+  }
+  .Account-container {
+    background-color: #ffffff;
+
+    padding: 30px;
+    width: 100%;
+  }
+  .heading-account {
+    font-size: 20px;
+    color: #000000;
+    font-family: roboto;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .line {
+    height: 2px;
+    width: 296px;
+    left: 32px;
+    top: 239px;
+    border-radius: 10px;
+    background: #cbd5e1;
+    margin-bottom: 10px;
+  }
+  .membership-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .member {
+    height: 23px;
+    width: 106px;
+    left: 32px;
+    top: 169px;
+    border-radius: nullpx;
+    color: #94a3b8;
+  }
+  .user-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .user {
+    height: 21px;
+    width: 129px;
+    left: 149px;
+    top: 169px;
+    border-radius: nullpx;
+    color: #1e293b;
+  }
+  .password {
+    height: 21px;
+    width: 168px;
+    left: 149px;
+    top: 196px;
+    border-radius: nullpx;
+    color: #64748b;
+    margin-bottom: 15px;
+  }
+  .plan-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .button {
+    width: 100px;
+    background-color: transparent;
+    border: #1e293b, 1px, solid;
+    font-family: roboto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .logout-button {
+    height: 40px;
+    width: 89px;
+    left: 136px;
+    top: 360px;
+    border-radius: 4px;
+    padding: 8px 20px 8px 20px;
+    background: #e50914;
+    border: none;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+}
